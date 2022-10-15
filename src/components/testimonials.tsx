@@ -43,7 +43,7 @@ function Card(props: Props) {
   return (
     <div
       className={
-        "p-10 bg-white rounded-xl w-fit h-fit mt-6" +
+        "p-10 bg-white rounded-xl w-fit h-fit mt-6 " +
         (props.className ? props.className : "")
       }
     >
