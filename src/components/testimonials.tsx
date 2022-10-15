@@ -29,7 +29,7 @@ export default function Testimonials() {
             <Card
               {...testimony}
               key={testimony.name}
-              className={index === 0 ? "ml-0" : undefined}
+              className={index === 0 ? "sm:ml-0" : undefined}
             />
           ))}
         </div>
