@@ -29,7 +29,7 @@ export default function Testimonials() {
             <Card
               {...testimony}
               key={testimony.name}
-              className={index === 0 ? "sm:ml-0" : undefined}
+              className={index === 0 ? "sm:ml-0" : "sm:ml-[22px]"}
             />
           ))}
         </div>
@@ -43,7 +43,7 @@ function Card(props: Props) {
   return (
     <div
       className={
-        "p-10 bg-white rounded-xl w-fit h-fit mt-6 sm:ml-[22px] " +
+        "p-10 bg-white rounded-xl w-fit h-fit mt-6" +
         (props.className ? props.className : "")
       }
     >
