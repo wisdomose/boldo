@@ -10,7 +10,7 @@ module.exports = {
         "gray-light": "#F1F1F1",
       },
       backgroundImage: {
-        hero: "url(/src/assets/Logo Wall.png)",
+        hero: "url(/src/assets/Logo_Wall.png)",
       },
       boxShadow: {
         custom: "0px 4px 32px rgba(0, 0, 0, 0.08)",
